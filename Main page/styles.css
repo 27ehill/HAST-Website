@@ -299,7 +299,7 @@
 
   ul{
     list-style: none;
-    background: #8c52ff;
+    background: var(--main-red);
 }
 
 Ul li{
@@ -312,7 +312,7 @@ ul li a{
     padding: 20px 25px;
     display: block;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 20pxpx;
     text-align: center;
 }
 
@@ -321,15 +321,15 @@ ul li ul.dropdown li {
 }
 
 ul li ul.dropdown {
-    width: 100;
-    background: #8c52ff;
+    width: 100%;
+    background: var(--main-red);
     position: absolute;
     z-index: 999;
     display: none;
 }
 
 ul li a:hover {
-    background-color: #6d30e9;
+    background-color: var(--main-blue);
 }
 
 ul li:hover ul.dropdown {
