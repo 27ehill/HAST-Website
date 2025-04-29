@@ -297,7 +297,7 @@
 
   /* Dropdown styling */
 
-ul{
+  ul{
     list-style: none;
     background: #8c52ff;
 }
@@ -335,7 +335,6 @@ ul li a:hover {
 ul li:hover ul.dropdown {
     display: block;
 }
-
 
 
   /* End dropdown styling */
